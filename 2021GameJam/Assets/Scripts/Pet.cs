@@ -53,4 +53,19 @@ public class Pet : MonoBehaviour {
         }
         hygieneBar.SetHygiene(currentHygiene);
     }
+
+    //When click on the food button the health goes up 
+    public void EatFood(){
+        currentHealth += 10f;
+        healthBar.SetHealth(currentHealth);
+    }
+ 
+
+    //when click on the soap bar the hygiene goes up 
+    public void soapBar(){
+        currentHygiene += 10f;
+        hygieneBar.SetHygiene(currentHygiene);
+
+    }
+
 }
