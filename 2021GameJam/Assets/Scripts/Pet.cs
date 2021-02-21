@@ -9,7 +9,8 @@ public class Pet : MonoBehaviour {
     private float maxHealth =  100.0f;
     public float currentHygiene;
     private float maxHygiene =  100.0f;
-    // public float lovePts;
+    public GameObject allAnimals;
+    public float lovePts;
 
 
 
@@ -27,12 +28,57 @@ public class Pet : MonoBehaviour {
         hygieneBar.SetMaxHygiene(maxHygiene);
         InvokeRepeating("DecreaseHealth", 1f, 2f);
         InvokeRepeating("DecreaseHygiene", 1f, 2f);
+
+        allAnimals = GameObject.FindGameObjectWithTag("Pets");
     }
+
 
 
     /**
     Changing animation and sprite to a different animal
     **/
+
+    public void ChangeAnimal(int num){
+        foreach(GameObject animal in allAnimals){
+            if(animal.GameObject.activeSelf){
+                animal.GameObject.SetActive(false);
+                            }
+
+        }
+
+        switch (num)
+        {
+            case 0:
+                allAnimals.transform.Find("BlackCat").SetActive(true);
+                break;
+
+            case 1:
+                allAnimals.transform.Find("WhiteCat").SetActive(true);
+                break;
+
+            case 2:
+            allAnimals.transform.Find("Bun").SetActive(true);
+            break;
+
+            case 3:
+                allAnimals.transform.Find("GingerDoggo").SetActive(true);
+                break;
+            
+            case 4:
+                allAnimals.transform.Find("GreyDog").SetActive(true);
+                break;
+
+            case 5:
+                allAnimals.transform.Find("BalckDog").SetActive(true);
+                break;
+            
+            case 16:
+                allAnimals.transform.Find("GangstaDog").SetActive(true);
+                break;
+
+        }
+        
+    }
 
 
 
