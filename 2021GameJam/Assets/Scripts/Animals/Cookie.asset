@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d925d1f4ba7b74b939098b74c4426a2d, type: 3}
   m_Name: Cookie
   m_EditorClassIdentifier: 
-  name: Cookie
+  name: cookie
   description: A shy but brave bunny. The only memory Cookie has of his past is being
     loved by Daisy and Theo.
-  sprite: {fileID: 0}
-  animations: {fileID: 0}
+  initialHealth: 50
+  initialHygiene: 70
+  sprite: {fileID: 2974649492074579379, guid: a5b66166575d14ddf9f4c81fba4d6312, type: 3}

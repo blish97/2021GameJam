@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d925d1f4ba7b74b939098b74c4426a2d, type: 3}
-  m_Name: New Pet Types
+  m_Name: Athanasia
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  sprite: {fileID: 0}
-  animations: {fileID: 0}
+  name: athanasia
+  description: A mischevious cat. Loves to play in the sun. Her favourite tv show
+    is Game of Thrones.
+  initialHealth: 60
+  initialHygiene: 40
+  sprite: {fileID: -5017847660306115368, guid: a5b66166575d14ddf9f4c81fba4d6312, type: 3}

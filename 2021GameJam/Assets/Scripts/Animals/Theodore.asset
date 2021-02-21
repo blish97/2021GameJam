@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d925d1f4ba7b74b939098b74c4426a2d, type: 3}
-  m_Name: New Pet Types
+  m_Name: Theodore
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  initialHealth: 0
-  initialHygiene: 0
-  sprite: {fileID: 0}
+  name: theodore
+  description: Very educated and full of knowledge, Theodore loves to ponder why
+    he exists and why the world is the way it is. He tries his best to guide Athanasia
+    into becoming a proper lady cat. However, it has yet to show progress.
+  initialHealth: 100
+  initialHygiene: 100
+  sprite: {fileID: 7531114091871344896, guid: a5b66166575d14ddf9f4c81fba4d6312, type: 3}

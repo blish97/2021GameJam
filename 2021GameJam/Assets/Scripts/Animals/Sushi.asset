@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d925d1f4ba7b74b939098b74c4426a2d, type: 3}
   m_Name: Sushi
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  sprite: {fileID: 0}
+  name: sushi
+  description: He is very anxious. Any noise alarms him. Ramen tries her best to
+    protect her husband but Sushi's fear sometimes overcomes him. He likes to show
+    his appreciation by giving kisses.
+  initialHealth: 30
+  initialHygiene: 90
+  sprite: {fileID: 547356144284869067, guid: a5b66166575d14ddf9f4c81fba4d6312, type: 3}

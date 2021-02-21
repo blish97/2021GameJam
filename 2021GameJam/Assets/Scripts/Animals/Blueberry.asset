@@ -10,8 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d925d1f4ba7b74b939098b74c4426a2d, type: 3}
-  m_Name: New Pet Types
+  m_Name: Blueberry
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  sprite: {fileID: 0}
+  name: blueberry
+  description: Blueberry is an expert cook. Her popular dish is "stick and leaf".
+    Her big heart reaches even species beyond humans and dogs. A good friend of the
+    neighborhood fairies.
+  initialHealth: 90
+  initialHygiene: 80
+  sprite: {fileID: -2025224813146546251, guid: a5b66166575d14ddf9f4c81fba4d6312, type: 3}

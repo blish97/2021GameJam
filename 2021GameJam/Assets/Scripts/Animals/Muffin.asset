@@ -10,8 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d925d1f4ba7b74b939098b74c4426a2d, type: 3}
-  m_Name: New Pet Types
+  m_Name: Muffin
   m_EditorClassIdentifier: 
-  name: 
-  description: 
-  sprite: {fileID: 0}
+  name: muffin
+  description: A former gang leader. Currently fighting against PTSD, Muffin tries
+    his best to protect his family from old enemies. Although a slient type, he secretly
+    likes to be spoiled.
+  initialHealth: 40
+  initialHygiene: 30
+  sprite: {fileID: 6124684655123702411, guid: a5b66166575d14ddf9f4c81fba4d6312, type: 3}
