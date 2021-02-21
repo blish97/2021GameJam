@@ -1331,7 +1331,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Cooky's Grandpa, was a part of the gang when he was younger. Now he is
+    trying to redeem himself from the sins he commited.
 --- !u!222 &276788602
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1726,7 +1727,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Athanasia's father, wwants to teach her how to live like a real cat
 --- !u!222 &440132089
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4374,7 +4375,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: mother of Cooky, loves to bake cookies so named her grandson cooky
 --- !u!222 &1166634751
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4972,7 +4973,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Cooky's Grandma, was a part of gang to joined baking community and learned
+    what love feels like
 --- !u!222 &1264405201
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6550,7 +6552,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Cooky is a lost soul trying to find why his ancestors are other species.
+    He lives freely and enjoys life
 --- !u!222 &1563362786
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6899,7 +6902,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Atanashia loves adventure and she is helping cooking in finding out the
+    mystery of her family
 --- !u!222 &1755555432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7196,7 +7200,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Father of cooky, he is a chill guy and loves work
 --- !u!222 &1928635380
 CanvasRenderer:
   m_ObjectHideFlags: 0
