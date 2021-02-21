@@ -5,6 +5,8 @@ using UnityEngine;
 public class character : MonoBehaviour
 {
 
+    public float currentHealth;
+
     public float MoveSpeed = 10;
     public float JumpForce = 3;
     private Rigidbody2D rb;
@@ -68,4 +70,25 @@ if (transform.position.x < _posX)
         }
         
     }
+
+
+
+
+    // Decreasing Health 
+    private void DecreaseHealth() {
+        StartCoroutine(lowerHealth(10));
+    }
+
+        private IEnumerator lowerHealth(float time) {
+        float counter = 0;
+        while (counter <= time) {
+            counter += Time.deltaTime;
+            // health -= 0.05f;
+            //healthBar.SetHealth(health);
+
+            //Wait for a frame so that we don't freeze Unity
+            yield return null;
+        }
+    }
+
 }
