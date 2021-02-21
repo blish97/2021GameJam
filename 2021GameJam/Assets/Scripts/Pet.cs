@@ -4,17 +4,13 @@ using UnityEngine;
 
 
 public class Pet : MonoBehaviour {
-    public new string name;
-    public string description;
-
-    // public Animation animation;
-    // public Sprite sprite;
 
     public float currentHealth;
-    public float maxHealth =  100.0f;
+    private float maxHealth =  100.0f;
     public float currentHygiene;
-    public float maxHygiene =  100.0f;
+    private float maxHygiene =  100.0f;
     // public float lovePts;
+
 
 
     // reference to healthBar
@@ -28,28 +24,21 @@ public class Pet : MonoBehaviour {
     void Start()
     {
 		healthBar.SetMaxHealth(maxHealth);
+        hygieneBar.SetMaxHygiene(maxHygiene);
         InvokeRepeating("DecreaseHealth", 1f, 2f);
         InvokeRepeating("DecreaseHygiene", 1f, 2f);
     }
 
 
-
-    // /**
-    // Extra methods used to control the stat decrease; MUST CALL
-    // **/
-    // public void StopStatDecrease() {
-    //     CancelInvoke();
-    // }
-
-    // public void StartStatDecrease() {
-    //     InvokeRepeating("DecreaseHealth", 1f, 2f);
-    //     InvokeRepeating("DecreaseHygiene", 1f, 2f);
-    // }
+    /**
+    Changing animation and sprite to a different animal
+    **/
 
 
 
-
-    // Decreasing Health over time
+    /**
+     Decreasing Health over time
+    **/
     private void DecreaseHealth() {
         if (currentHealth > 0.0f) {
             currentHealth -= 0.5f;
