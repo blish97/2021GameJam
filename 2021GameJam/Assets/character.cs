@@ -28,20 +28,14 @@ public class character : MonoBehaviour
     }
 
     float someScale;
-
-
     void Update()
     {
 
-        
-        
         //Move Left and right
         Vector3 frameMovement = new Vector3(Input.GetAxis("Horizontal") * MoveSpeed, 0);
         transform.Translate(frameMovement * Time.deltaTime);
-
         
         //Updates where the player is facing
-   
 if (transform.position.x < _posX)
          {
              Debug.Log("Moving left - " + transform.position.x);
@@ -65,14 +59,8 @@ if (transform.position.x < _posX)
  
          _posX = transform.position.x;
 
-
-
-
+        //animation
         anim.SetBool("isLeft", frameMovement.x != 0);
-
-
-    
-       
         //Player Jump
         if(Input.GetButtonDown("Jump") && Mathf.Abs(rb.velocity.x) < 0.001){
 
