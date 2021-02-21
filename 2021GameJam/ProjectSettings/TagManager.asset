@@ -14,9 +14,9 @@ TagManager:
   - UI
   - 
   - 
+  - Pet
   - Background
   - Ground
-  - 
   - 
   - 
   - 
@@ -47,4 +47,7 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 1967890973
+    locked: 0
+  - name: Pet
+    uniqueID: 3972133501
     locked: 0
