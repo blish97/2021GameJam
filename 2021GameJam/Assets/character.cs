@@ -5,30 +5,43 @@ using UnityEngine;
 public class character : MonoBehaviour
 {
 
-    public float MoveSpeed = 2;
+    public float MoveSpeed = 10;
     public float JumpForce = 3;
     private Rigidbody2D rb;
+    private Animator anim;
 
+    void Awake(){
+        anim = GetComponent<Animator>();
+    }
     void Start()
     {
 
         rb = GetComponent<Rigidbody2D>(); 
 
-        
-        
+
     }
-
-
     void Update()
     {
+        
+        
+        //Move Left and right
 
-        var movement = Input.GetAxis("Horizontal");
-        transform.position += new Vector3(movement,0,0)* Time.deltaTime * MoveSpeed;
+        Vector3 frameMovement = new Vector3(Input.GetAxis("Horizontal") * MoveSpeed, 0);
+        transform.Translate(frameMovement * Time.deltaTime);
 
-        if(Input.GetButtonDown("Jump") && Mathf.Abs(rb.velocity.y) < 0.001){
+
+
+        //Updates where the player is facing
+        if (frameMovement.x != 0){
+            transform.localScale = new Vector3(Mathf.Sign(frameMovement.x), 1, 1);
+        }
+
+        anim.SetBool("isLeft", frameMovement.x != 0);
+       
+        //Player Jump
+        if(Input.GetButtonDown("Jump") && Mathf.Abs(rb.velocity.x) < 0.001){
 
             rb.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
-
         }
         
     }
