@@ -8,8 +8,8 @@ public class petMove : MonoBehaviour
     public bool MoveRight;
 
     private Rigidbody2D rb;
-
-      void Start()
+    
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>(); 
     }
